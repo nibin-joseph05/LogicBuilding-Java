@@ -1,72 +1,85 @@
-# Logic Building Practice (Java)
+# Java Learning Journey
 
-This repository contains my **Java solutions for the LogicBuilding101 problem set**.
-The goal of this project is to strengthen programming fundamentals and problem-solving skills before moving into advanced Data Structures and Algorithms (DSA).
+This repository documents my structured journey to strengthen my **Java fundamentals, backend development skills, and problem-solving ability**.
 
-The original LogicBuilding101 repository provides problems and JavaScript solutions.
-In this project, I am **reimplementing the same problems using Java** as part of my daily practice.
+The goal is to build a strong foundation in **Java programming, Data Structures & Algorithms, and Spring Boot backend development**.
 
 ---
 
-## Purpose
+# Repository Structure
 
-* Improve core programming logic
-* Practice structured Java coding
-* Strengthen problem-solving skills
-* Build a solid foundation for DSA and technical interviews
+Java
+│
+├ logic-building
+│   Java implementations of the LogicBuilding101 problem set
+│
+├ dsa
+│   Data Structures and Algorithms practice
+│
+├ java-core
+│   Experiments and practice with core Java concepts
+│   (Collections, Streams, Multithreading, JVM behavior)
+│
+├ spring-boot
+│   Backend applications built using Spring Boot
+│   (CRUD APIs, security, microservices experiments)
 
 ---
 
-## Repository Structure
+# Logic Building Practice
 
-```
-src
-│
-├── day01
-│   └── Day01Programs.java
-│
-├── day02
-│   └── Day02Programs.java
-│
-├── day03
-│   └── Day03Programs.java
-│
-└── ...
-```
+The **logic-building** module contains my Java solutions for the LogicBuilding101 problem set.
 
-Each folder represents a **day of practice**, and each Java file contains solutions to the problems for that day.
+This practice focuses on strengthening programming fundamentals before moving to advanced algorithmic problem solving.
 
----
+Practice details:
 
-## Practice Plan
+- Total Problems: 101+
+- Duration: 34 Days
+- Daily Goal: 3 Problems
 
-* Total Problems: **101+**
-* Duration: **34 Days**
-* Daily Goal: **3 Problems**
+Topics include:
 
-Topics covered include:
+- Basic Math Problems
+- Pattern Problems
+- Arrays
+- Matrices
+- Strings
+- Objects
+- Basic Recursion
 
-* Basic Math Problems
-* Pattern Problems
-* Arrays
-* Matrices
-* Strings
-* Objects
-* Basic Recursion
-
----
-
-## Reference Repository
-
-Problem statements are taken from the original LogicBuilding101 repository:
+Reference repository for problem statements:
 
 https://github.com/Upendhar10/LogicBuilding101
 
-The reference repository contains JavaScript solutions, while this repository contains **Java implementations for practice**.
+The reference project provides JavaScript solutions, while this repository contains **Java implementations for practice**.
 
 ---
 
-## Author
+# Spring Boot Learning
 
-Nibin Joseph
-Software Engineer
+The **spring-boot** folder contains backend experiments and mini projects built while learning advanced backend development concepts such as:
+
+- REST API design
+- Spring Data JPA
+- Spring Security
+- JWT Authentication
+- Microservices architecture
+- Docker containerization
+
+---
+
+# Purpose of This Repository
+
+- Improve problem-solving ability
+- Strengthen Java fundamentals
+- Practice clean and structured coding
+- Build production-ready backend skills
+
+---
+
+# Author
+
+Nibin Joseph  
+Software Engineer  
+Java Backend & Flutter Developer
