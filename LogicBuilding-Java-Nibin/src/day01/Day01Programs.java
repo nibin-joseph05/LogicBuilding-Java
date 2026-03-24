@@ -29,13 +29,43 @@ package day01;
 import java.util.Scanner;
 
 public class Day01Programs {
-    int num;
     public void printNumberEnteredByUser(Scanner scanner){
-        //input
         System.out.println("Enter a number : " );
-        num = scanner.nextInt();
-        //print
+        int num = scanner.nextInt();
         System.out.println("The number you entered is : " + num);
+    }
+    public void showDataTypeSize(){
+        System.out.println("The size of Int is : " + Integer.BYTES);
+        System.out.println("The size of float is : " + Float.BYTES);
+        System.out.println("The size of double is : " + Double.BYTES);
+        System.out.println("The size of char is : " + Character.BYTES);
+    }
+    public void largerAmongTwoNumbers(Scanner scanner){
+        System.out.println("Enter the first number : " );
+        double num1 = scanner.nextDouble();
+        System.out.println("Enter the second number : " );
+        double num2 = scanner.nextDouble();
+
+        if (num1 != 0 || num2 != 0){
+            if(num1 > num2){
+                System.out.println("the number " + num1 + " is greater!");
+            }
+            else if (num2 > num1){
+                System.out.println("the number " + num2 + " is greater!");
+            }
+            else if(num1 == num2){
+                System.out.println("They are Equal!");
+            }
+        }
+        else{
+            System.out.println("Both Value cant be Zero!");
+        }
+    }
+
+    public void run(Scanner scanner){
+        printNumberEnteredByUser(scanner);
+        showDataTypeSize();
+        largerAmongTwoNumbers(scanner);
     }
 
 }

@@ -10,7 +10,9 @@ public class LogicBuildingMain{
         Scanner scanner = new Scanner(System.in);
         //day01
         Day01Programs day01 = new Day01Programs();
-        day01.printNumberEnteredByUser(scanner);
+        day01.run(scanner);
 
+
+        scanner.close();
     }
 }
