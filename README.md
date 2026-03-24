@@ -6,26 +6,6 @@ The goal is to build a strong foundation in **Java programming, Data Structures 
 
 ---
 
-# Repository Structure
-
-Java
-│
-├ logic-building
-│   Java implementations of the LogicBuilding101 problem set
-│
-├ dsa
-│   Data Structures and Algorithms practice
-│
-├ java-core
-│   Experiments and practice with core Java concepts
-│   (Collections, Streams, Multithreading, JVM behavior)
-│
-├ spring-boot
-│   Backend applications built using Spring Boot
-│   (CRUD APIs, security, microservices experiments)
-
----
-
 # Logic Building Practice
 
 The **logic-building** module contains my Java solutions for the LogicBuilding101 problem set.
