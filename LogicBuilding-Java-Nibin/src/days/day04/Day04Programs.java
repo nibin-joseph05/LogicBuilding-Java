@@ -104,18 +104,6 @@ public class Day04Programs {
         return number == reversed;
     }
 
-    public void sumOfDigitsOfANumber(int num){
-        double sum = 0;
-
-        while(num != 0){
-            int lastDigit = num % 10;
-            sum += lastDigit;
-            num /= 10;
-        }
-
-        System.out.println("The sum is : " + sum);
-    }
-
     public void countDigits(int num){
         int count = 0;
 
@@ -155,8 +143,6 @@ public class Day04Programs {
 //        System.out.println(reverseOfANumber(num));
 //
 //        System.out.println(palindromeOrNot(num) ? "the number is palindrome!" : "the number is not palindrome!" );
-//
-//        sumOfDigitsOfANumber(num);
 
         countDigits(num);
 
