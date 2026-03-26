@@ -38,6 +38,17 @@ public class Day05Programs {
         System.out.println("The sum is : " + sum);
     }
 
+    public void checkVowelOrNot(char alphabet){
+        switch(alphabet){
+            case 'a', 'e', 'i', 'o', 'u' -> System.out.println(alphabet + " is a vowel");
+            default -> System.out.println(alphabet + " is not a vowel");
+        }
+    }
+
+    public void findASCIIValue(char alphabet){
+        int ascii = alphabet;
+        System.out.println("The ASCII value of " + alphabet + " is : " + ascii);
+    }
 
     public void run(Scanner scanner){
 
@@ -45,5 +56,12 @@ public class Day05Programs {
         int num = scanner.nextInt();
 
         sumOfDigitsOfANumber(num);
+
+        System.out.println("Enter a character : ");
+        char alphabet = scanner.next().charAt(0);
+
+        checkVowelOrNot(alphabet);
+
+        findASCIIValue(alphabet);
     }
 }
