@@ -43,7 +43,7 @@ Output
 
  */
 
-package day02;
+package days.day02;
 
 import java.util.Scanner;
 

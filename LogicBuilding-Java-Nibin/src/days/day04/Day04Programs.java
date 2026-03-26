@@ -55,7 +55,7 @@ Output: 5
 
 */
 
-package day04;
+package days.day04;
 
 import java.util.Scanner;
 

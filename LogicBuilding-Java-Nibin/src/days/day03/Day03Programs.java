@@ -24,7 +24,7 @@ Quotient: 3
 Remainder: 1
 */
 
-package day03;
+package days.day03;
 import java.util.Scanner;
 
 public class Day03Programs {

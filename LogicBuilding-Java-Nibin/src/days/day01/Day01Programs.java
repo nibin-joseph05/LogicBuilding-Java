@@ -24,7 +24,7 @@ Output: The larger number is: 20
  */
 
 
-package day01;
+package days.day01;
 
 import java.util.Scanner;
 
