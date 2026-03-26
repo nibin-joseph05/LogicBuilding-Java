@@ -77,17 +77,55 @@ public class Day04Programs {
         }
     }
 
-    public int reverseOfANumber(int num){
+    public int reverseOfANumber(int num) {
 
         int reversed = 0;
 
-        while(num != 0) {
-                int last_digit = num % 10;
-                reversed = reversed * 10 + last_digit;
-                num = num / 10;
+        while (num != 0) {
+            int lastDigit = num % 10;
+            reversed = reversed * 10 + lastDigit;
+            num = num / 10;
         }
 
         return reversed;
+    }
+
+    public boolean palindromeOrNot(int num){
+
+        int number = num;
+        int reversed = 0;
+
+        while(num != 0){
+            int lastDigit = num % 10;
+            reversed = reversed * 10 + lastDigit;
+            num /= 10;
+        }
+
+        return number == reversed;
+    }
+
+    public void sumOfDigitsOfANumber(int num){
+        double sum = 0;
+
+        while(num != 0){
+            int lastDigit = num % 10;
+            sum += lastDigit;
+            num /= 10;
+        }
+
+        System.out.println("The sum is : " + sum);
+    }
+
+    public void countDigits(int num){
+        int count = 0;
+
+        while(num != 0){
+            int lastDigit = num % 10;
+            num /= 10;
+            count++;
+        }
+
+        System.out.println("The count is : " + count);
     }
 
     public void run(Scanner scanner){
@@ -111,11 +149,16 @@ public class Day04Programs {
 //
 //        simpleCalculator(num1, num2, choice);
 
-//        System.out.println("Enter a number : ");
-//        int num = scanner.nextInt();
+        System.out.println("Enter a number : ");
+        int num = scanner.nextInt();
 //
 //        System.out.println(reverseOfANumber(num));
+//
+//        System.out.println(palindromeOrNot(num) ? "the number is palindrome!" : "the number is not palindrome!" );
+//
+//        sumOfDigitsOfANumber(num);
 
+        countDigits(num);
 
     }
 }
