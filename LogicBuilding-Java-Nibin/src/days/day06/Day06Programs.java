@@ -35,11 +35,25 @@ public class Day06Programs {
         }
     }
 
-    public void printRightAngledTriangle(int rows, int columns){
+    public void printRightAngledTriangle(int rows){
         for(int i = 0; i <= rows; i++){
-            for(int j =0; j <= columns; j++){
+            System.out.println();
+            for(int j =0; j < i ; j++){
                 System.out.print("* ");
             }
+        }
+    }
+
+    public void printHollowRectangle(int rows, int columns) {
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= columns; j++) {
+                if (i == 1 || i == rows || j == 1 || j == columns) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
         }
     }
 
@@ -50,7 +64,10 @@ public class Day06Programs {
 
         System.out.println("Enter the columns : ");
         int columns = scanner.nextInt();
+//
+//        printSquarePattern(rows, columns);
+//        printRightAngledTriangle(rows);
+        printHollowRectangle(rows, columns);
 
-        printSquarePattern(rows, columns);
     }
 }
