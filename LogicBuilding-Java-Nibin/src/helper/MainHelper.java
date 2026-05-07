@@ -6,6 +6,7 @@ import days.day03.Day03Programs;
 import days.day04.Day04Programs;
 import days.day05.Day05Programs;
 import days.day06.Day06Programs;
+import days.day07.Day07Programs;
 
 import java.util.Scanner;
 
@@ -33,9 +34,13 @@ public class MainHelper {
 //        Day05Programs day05 = new Day05Programs();
 //        day05.run(scanner);
 
-        //day06
-        Day06Programs day06 = new Day06Programs();
-        day06.run(scanner);
+//        day06
+//        Day06Programs day06 = new Day06Programs();
+//        day06.run(scanner);
+
+        //day07
+        Day07Programs day07 = new Day07Programs();
+        day07.run(scanner);
 
     }
 
