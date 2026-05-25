@@ -34,6 +34,8 @@ public class StudentService {
         }
     }
 
+
+
     public void run(Scanner scanner){
         System.out.println("-----Welcome-----");
 
@@ -43,7 +45,10 @@ public class StudentService {
 
             while (true) {
                 switch(choice){
-                    case 1 -> addStudent(scanner);
+                    case 1 ->{
+                        addStudent(scanner);
+
+                    }
                     case 2 -> viewStudent();
 
                     case 6 -> {
