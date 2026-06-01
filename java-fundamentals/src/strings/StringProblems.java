@@ -61,9 +61,53 @@ public class StringProblems {
         }
     }
 
-    public void reverseEachWord(String text){
-        String[] wordArray = text.split(" ");
-        System.out.println(wordArray);
+    public void checkStringLength(String text1, String text2){
+        if(text1.length() == text2.length()){
+            System.out.println("They are equal length!");
+        }
+        else{
+            System.out.println("They are not equal length!");
+        }
+
     }
+
+    public void reverseString2(String text){
+        String reversed = "";
+
+        for(int i = text.length() -1; i >= 0; i--){
+            reversed += text.charAt(i);
+        }
+
+        System.out.println("The reversed is " + reversed);
+    }
+
+    public void fibanacci(int limit){
+        int firstNum = 0;
+        int secondNum = 1;
+        int thirdNum = firstNum  + secondNum;
+
+        System.out.print("The sequence is " + firstNum + " ," + secondNum + ", " + thirdNum);
+
+        for(int i = 1 ; i <= limit; i++){
+            firstNum = secondNum;
+            secondNum = thirdNum;
+            thirdNum = firstNum  + secondNum;
+
+            System.out.print(", " + thirdNum);
+        }
+    }
+
+    public void longestPalindromicSubstring(String text){
+
+        for(int i = 0; i <= text.length() -1; i++){
+            for(int j = i + 1; j <= text.length();j++){
+
+            }
+        }
+    }
+
+
+
+
 
 }

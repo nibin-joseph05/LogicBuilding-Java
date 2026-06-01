@@ -20,7 +20,9 @@ public class FundamentalsMain{
         sp.palindromeOrNot("nibin");
         sp.palindromeOrNot("abcd");
 
-        sp.reverseEachWord("hello java world");
-
+        sp.checkStringLength("hello", "hello");
+//        sp.arrangeInOrder("hai");
+        sp.reverseString2("nibin2");
+        sp.fibanacci(15);
     }
 }
